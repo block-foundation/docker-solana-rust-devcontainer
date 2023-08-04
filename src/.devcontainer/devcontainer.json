@@ -1,0 +1,15 @@
+
+{
+	"name": "Solana Rust Devcontainer",
+	"dockerFile": "Dockerfile",
+	"forwardPorts": [8899, 8900],
+	"settings": {
+	//   "terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"workspaceFolder": "/workspace",
+	"extensions": [
+	  "rust-lang.rust",
+	  "matklad.toml"
+	]
+  }
+  
